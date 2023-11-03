@@ -1,0 +1,550 @@
+.contact {
+    background-color: #e7e7e7;
+    height: 20px;
+}
+.tel-icon {
+    left: 20px;
+    top: 3px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+}
+.num {
+    left: 40px;
+    top: 1px;
+    color: black;
+    position: absolute;
+}
+.menu {
+    background-color: #000;
+    height: 60px;
+    font-family: sans-serif;
+    position: relative;
+}
+.logoheader {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    top : 10px;
+    left: 40px;
+    opacity: 100%;
+    z-index: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    font: 'Helvetica';
+}
+body {
+    background-color: black;
+}
+
+li{
+    list-style-type: none;
+}
+.nav1sel {
+    position: absolute;
+    bottom: 20px;
+    right: 650px;
+    font-style: sans-serif;
+    text-decoration: underline;
+    text-decoration: bold;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav1 {
+    position: absolute;
+    bottom: 20px;
+    right: 650px;
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav1:hover {
+    text-decoration: underline;
+}
+.nav2sel {
+    position: absolute;
+    bottom: 20px;
+    right: 470px;
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav2 {
+    position: absolute;
+    bottom: 20px;
+    right: 470px;
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav2:hover {
+    text-decoration: underline;
+}
+.nav3sel {
+    position: absolute;
+    bottom: 20px;
+    right: 310px;
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav3 {
+    position: absolute;
+    bottom: 20px;
+    right: 310px;
+    font-style: sans-serif;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav3:hover {
+    text-decoration: underline;
+}
+.nav4sel {
+    position: absolute;
+    bottom: 20px;
+    right: 180px;
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav4 {
+    position: absolute;
+    bottom: 20px;
+    right: 180px;
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav4:hover {
+    text-decoration: underline;
+}
+.nav5sel {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    font-style: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav5 {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: 18px;
+}
+.nav5:hover {
+    text-decoration: underline;
+}
+a.lien:link, a.lien:visited, a.lien:active {
+    text-decoration: none;
+    font-style: sans-serif;
+    color: #FFFFF9;
+    
+}
+.main {
+    background-color: black;
+    max-height: auto;
+}
+.mainTiny {
+    margin-top: 50px;
+    position: flex;
+}
+
+footer {
+    background-color: black;
+    height: 125px;
+    bottom: 0px;
+    margin:0;
+    position:relative;
+}
+.adresse {
+    margin: auto;
+    padding-left: 15%;
+    margin-right: 10px;
+    top: 15px;
+    position: absolute;
+    width: 150px;
+}
+.adresse-scev {
+    color: floralwhite;
+    text-align: center;
+}
+.description {
+    position:relative;
+    margin : auto;
+    width: 300px;
+    top: 13%;
+    height: 10%
+}
+.description-text {
+    color : floralwhite;
+    text-align: center;
+}
+.social {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 150%;
+    padding-right: 100%;
+    position: relative;
+    top: -60px;
+    width: 200px;
+    text-align: center;
+    color: floralwhite;
+}
+.tinyMenu {
+    background-color: black;
+    height: 60px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+/* Styles pour le bouton "Menu" */
+#menuButton {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    right: 40px;
+    bottom : px;
+}
+
+.tinyMenu #menuButton {
+    display: block;
+}
+
+.tinyNav {
+    display: none;
+}
+
+.tinyNav.show-menu {
+    display: flex;
+    width: auto;
+    text-align: center;
+    height: auto;
+    overflow-x: auto;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: black;
+    color: floralwhite;
+    padding: 10px; 
+    position: absolute;
+    right: 5px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+/* Styles pour le bouton "Menu" au survol */
+#menuButton:hover {
+    text-decoration: underline;
+}
+.nav1selTiny {
+    font-style: sans-serif;
+    text-decoration: underline;
+    text-decoration: bold;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav1Tiny {
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav1Tiny:hover {
+    text-decoration: underline;
+}
+.nav2selTiny {
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav2Tiny {
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav2Tiny:hover {
+    text-decoration: underline;
+}
+.nav3selTiny {
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav3Tiny {
+    font-style: sans-serif;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav3Tiny:hover {
+    text-decoration: underline;
+}
+.nav4selTiny {
+    font-style: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav4Tiny {
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav4Tiny:hover {
+    text-decoration: underline;
+}
+.nav5selTiny {
+    font-style: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav5Tiny {
+    font-style: sans-serif;
+    text-decoration: none;
+    text-decoration-color: floralwhite;
+    font-size: auto;
+}
+.nav5Tiny:hover {
+    text-decoration: underline;
+}
+.description-textHidden: {
+    display: none;
+    bottom: 0px;
+}
+.adresse-scevTiny {
+    top: 15%;
+    position: relative;
+    left: 35%;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    color: floralwhite;
+    z-index: 1;
+}
+.socialTiny {
+    position: relative;
+    top: -55px;
+    right: -53%;
+    width: 200px;
+    text-align: center;
+    color: floralwhite;
+    align-content: center;
+}
+.photopresentation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 65%;
+    left: 0px;
+    right: 0px;
+    background-image:url(/image/presentation.png);
+    background-size: cover;
+}
+.pressopraimg {
+    position: relative;
+    width: 50%;
+    height: auto;
+    top : 50px;
+    left: 25%;
+    opacity: 100%;
+    z-index: 1;
+}
+.desctextimg {
+    position: relative;
+    width: 75%;
+    height: auto;
+    top: 20%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.presbox {
+    background-color: black;
+    opacity: 0.7;
+    width: 400px;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prescards {
+    height: 350px;
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.prescard1 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 4%;
+    height: 75%;
+    width : 25%;
+    background-color: #EEE;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px #BBB;
+    color: black;
+}
+.prescard2 {
+    position: relative;
+    margin-top: 0px;
+    height: 75%;
+    width : 25%;
+    background-color: #EEE;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px #BBB;
+    color: black;
+}
+.prescard3 {
+    position: relative;
+    margin-top: 0px;
+    margin-right: 2%;
+    height: 75%;
+    width : 25%;
+    background-color: #EEE;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px #BBB;
+    margin-right: 4%;
+    color: black;
+    align-items: center;
+}
+.prescard1:hover {
+    -webkit-transform:scale(1.06);
+    -moz-transform:scale(1.06)
+    -ms-transform:scale(1.06)
+    -o-transform:scale(1.06)
+    transform:scale(1.06);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease
+    -ms-transition: all 1s ease
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.prescard2:hover {
+    -webkit-transform:scale(1.06);
+    -moz-transform:scale(1.06)
+    -ms-transform:scale(1.06)
+    -o-transform:scale(1.06)
+    transform:scale(1.06);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease
+    -ms-transition: all 1s ease
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.prescard3:hover {
+    -webkit-transform:scale(1.06);
+    -moz-transform:scale(1.06)
+    -ms-transform:scale(1.06)
+    -o-transform:scale(1.06)
+    transform:scale(1.06);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease
+    -ms-transition: all 1s ease
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.accueilpres {
+    background-color: black;
+    padding-bottom:60px;
+}
+.box1 {
+    position:relative;
+    top:25px;
+    width:89%;
+    height: 300px;
+    left:10%;
+    right: 1%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: floralwhite;
+}
+.containersopradescimg {
+    position:relative;
+    width:25%;
+    height: 200px;
+    margin-left:20px;
+    top: 17%;
+}
+.sopradescimg {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 200px;
+    border-radius: 5%;
+}
+.sopraludescr {
+    position: relative;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    top: -35%;
+    bottom: 30%;
+    margin-left: 30%;
+}
+.box2 {
+    position:relative;
+    margin-top: 30px;
+    top:25px;
+    width:89%;
+    height: 300px;
+    right:10%;
+    left: 1%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: floralwhite;
+}
+.containersoprainfoimg {
+    position:relative;
+    width:25%;
+    height: 200px;
+    right: 20px;
+    margin-left: auto;
+    top: -17%;
+}
+.soprainfoimg {
+    width:100%;
+    height: 200px;
+    border-radius: 5%;
+}
+.sopraluinfo {
+    position: relative;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    top: 30%;
+    bottom: 30%;
+    margin-right: 30%;
+}
