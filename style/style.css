@@ -366,7 +366,7 @@ footer {
     height: 65%;
     left: 0px;
     right: 0px;
-    background-image:url(./image/presentation.png);
+    background-image:url(../image/presentation.png);
     background-size: cover;
 }
 .pressopraimg {
